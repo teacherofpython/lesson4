@@ -1,0 +1,6 @@
+student_marks = {"Аян": [100,80,100], "Жанар": [80,80,60], "Руслан": [60,100,80]}
+
+for name, grades in student_marks.items():
+    x = sum(grades)/len(grades)
+    if x >80:
+        print(name, x)

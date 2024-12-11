@@ -1,0 +1,6 @@
+
+students = {"Али": 22, "Мадина": 19, "Ернар": 25, "Аружан": 18}
+
+for name, age in students.items():
+    if age >20:
+        print(name)
